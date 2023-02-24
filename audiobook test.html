@@ -1,0 +1,42 @@
+
+<iframe 
+  src="https://vocaroo.com/1mEq7muELh4G" 
+  frameborder="0" 
+  id="ifr2"
+  height="700px"
+  ></iframe>
+
+  <iframe 
+  src="http://audio.epizy.com/?i=1
+  " 
+  frameborder="0" 
+  id="ifr"
+  height="700px"
+  ></iframe>
+
+<button style="font-size: 160px;border-radius: 12px;margin:60px
+" id="pl" onClick="func()">PLAY</button>
+
+
+<script>
+
+// Let's say that you want to access a button with the ID `'myButton'`,
+// you can access via the following code:
+//const buttonInIFrame = iFrame.contentWindow.document.getElementById('myButton');
+
+//console.log(document.styleSheets);
+function func(){const x = document.getElementById('ifr');
+var y=x.contentWindow.document;
+y.body.style.backgroundColor="red";}
+//var elmnt = y.getElementsByTagName("body");
+//var elmnt = y.getElementsByClassName("ContentBox");
+ //elmnt.style.backgroundColor = "red";
+
+  //var aud = y.document.getElementsByTagName("audio");
+//var pl=y.document.getElementById("pl");
+// pl.addEventListener(
+//   "click",function () {
+//   aud.play();
+// });
+</script>
+
